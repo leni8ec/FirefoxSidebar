@@ -1,0 +1,33 @@
+/* Custom Styles */
+
+
+
+/* FIREFOX SIDEBAR */
+
+/* Fix for FirefoxSidebar */
+#PersonalToolbar {
+  padding-left: 0 !important;
+}
+
+
+
+/* TABS TOOLBAR */
+
+/* Show Tabs Toolbar */
+#main-window #TabsToolbar {
+  visibility: visible !important;
+}
+
+/* Show Tabs (Toolbar will be visible) */
+/*#TabsToolbar {visibility: collapse !important;}*/
+
+/* Hide Tabs Toolbar (fix for hide toolbar completely) */
+/* @import url("./remove_tabs_toolbar.css"); */
+
+
+
+/* OTHER */
+
+/*#navigator-toolbox {visibility: collapse;}*/
+
+/*#sidebar-box #sidebar-header {display: none;}*/

@@ -1,0 +1,54 @@
+/* Source: https://github.com/ranmaru22/firefox-vertical-tabs */
+
+#TabsToolbar {
+    visibility: collapse !important;
+}
+
+
+:root[tabsintitlebar] {
+    --uc-window-control-width: 137px;
+    /* Space at the right of nav-bar for window controls */
+    --uc-window-drag-space-width: 24px;
+    /* To add extra window drag space in nav-bar */
+}
+
+#nav-bar {
+    border-inline: var(--uc-window-drag-space-width, 80px) solid var(--toolbar-bgcolor);
+    border-inline-style: solid !important;
+    border-right-width: calc(var(--uc-window-control-width, 0px) + var(--uc-window-drag-space-width, 0px));
+
+    padding-top: .5px !important;
+    /* This makes it possible to drag the maximized window. */
+    margin-left: -80px;
+    /* Removes the space left when hiding .titlebar-buttonbox-container */
+}
+
+:root {
+    --uc-toolbar-height: 32px;
+    --chrome-content-separator-color: none !important;
+}
+
+:root:not([uidensity="compact"]) {
+    --uc-toolbar-height: 38px;
+}
+
+:root:not([inFullscreen]) #nav-bar {
+    margin-top: calc(0px - var(--uc-toolbar-height));
+    /* margin-top: -45; */
+    z-index: 2;
+}
+
+:root[inFullscreen] #nav-bar {
+    border-inline: none !important;
+}
+
+
+#nav-bar-overflow-button {
+    margin-top: -.5px !important;
+}
+
+#toolbar-menubar {
+    min-height: unset !important;
+    height: var(--uc-toolbar-height) !important;
+    position: relative;
+}
