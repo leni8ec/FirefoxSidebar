@@ -14,11 +14,13 @@
 /* TABS TOOLBAR */
 
 /* Show Tabs Toolbar */
-#main-window #TabsToolbar {
+#TabsToolbar {
   visibility: visible !important;
+  /* Leave space for Windows avigation bar (#nav-bar)  */
+  margin-right: 98px;
 }
 
-/* Show Tabs (Toolbar will be visible) */
+/* Hide Tabs (Toolbar space itself will be visible) */
 /*#TabsToolbar {visibility: collapse !important;}*/
 
 /* Hide Tabs Toolbar (fix for hide toolbar completely) */
