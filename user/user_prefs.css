@@ -5,7 +5,7 @@
 */
 
 :root {
-    --sidebar-width: 50px;
+    --sidebar-width: 40px;
     --toolbar-height: -50px;
     --menubar-height: -74px;
     --sidebar-padding: calc(var(--sidebar-width) + 5px);
