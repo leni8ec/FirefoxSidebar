@@ -3,10 +3,16 @@
 
 
 /* FIREFOX SIDEBAR */
+/* soure: "./extensions/sidebar.css" */
 
 /* Fix for FirefoxSidebar */
 #PersonalToolbar {
-  padding-left: 0 !important;
+  padding-left: 100 !important;
+}
+
+/* Sidebar width */
+#sidebar-box{
+  --uc-sidebar-width: 43px;
 }
 
 
