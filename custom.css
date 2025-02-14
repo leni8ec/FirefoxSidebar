@@ -1,1 +1,31 @@
 /* Your custom modifications here */
+
+/* User peferences / Settings */
+@import url("./user/prefs.css");
+
+/* ========================================================================= */
+
+/* Extensions */
+
+  /* CSD / Window Controls */
+    @import url("./extensions/window_controls.css");
+
+  /* Bookmark Arrows :: add a little arrow next to folders in bookmarks toolbar */
+    /* @import url("./extensions/bookmark_arrow.css"); */
+
+  /* Avatar Size :: change the avatar size for the Firefox Account to what makes sense */
+    /* @import url("./extensions/avatar_size.css"); */
+
+  /* fix sidebar switcher if bookmarks toolbar is hidden */
+    @import url("./extensions/fix_hidden_bookmarks.css"); 
+
+  /* hide sidebar switcher */
+    @import url("./extensions/hide_sidebar_switcher.css"); 
+
+/* END EXTENSIONS ========================================================== */
+
+/* User tweaks */
+
+  @import url("./user/style.css");
+
+/* ========================================================================= */

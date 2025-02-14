@@ -20,8 +20,8 @@
   order: 1 !important;
   z-index: 999;
   border: medium;
-  width: 50px !important;
-  max-width: 50px !important;
+  width: 40px !important;
+  max-width: 40px !important;
   flex-direction: column-reverse;
   position: absolute;
   bottom: 0px;

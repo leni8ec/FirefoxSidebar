@@ -5,7 +5,7 @@
 */
 
 :root {
-    --sidebar-width: 40px;
+    --sidebar-width: 100px;
     --toolbar-height: -50px;
     --menubar-height: -74px;
     --sidebar-padding: calc(var(--sidebar-width) + 5px);
@@ -34,7 +34,7 @@
       
         
           /* --csd-left: 50px; */
-          --csd-margin-left: 43px;
+          /* --csd-margin-left: 43px; */
        
   
       /*

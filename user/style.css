@@ -10,19 +10,13 @@
   padding-left: 100 !important;
 }
 
-/* Sidebar width */
-#sidebar-box{
-  --uc-sidebar-width: 43px;
-}
-
-
 
 /* TABS TOOLBAR */
 
 /* Show Tabs Toolbar */
 #TabsToolbar {
   visibility: visible !important;
-  /* Leave space for Windows avigation bar (#nav-bar)  */
+  /* Leave space for Windows navigation bar (#nav-bar)  */
   margin-right: 98px;
 }
 
